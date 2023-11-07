@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fa-solid {
+  margin: 15px;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fa-solid:hover {
+  cursor: pointer;
+  color: brown;
+}
+
+.iconSpan:hover {
+  border-bottom: 3px solid green;
+}
+
+.iconSpan {
+  margin: 7px;
+}
+
+.crd {
+  width: 260px;
+  height: 290px;
+  border: 1px solid silver;
+  border-radius: 7px;
+  margin-right: 5px;
+  position: absolute;
+  right: 0;
+  top: 49px;
+  background-color: white;
+  z-index: 2;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.card-body {
+  padding: 5px;
+  font-size: 12px;
+}
+
+#Login {
+  margin-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
+  border: 1px solid brown;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 15px;
+}
+
+#Login:hover {
+  margin-left: 80px;
+  font-family: 'Times New Roman', Times, serif;
   color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: brown;
 }
 
-.App-link {
-  color: #61dafb;
+.proContent {
+  margin-bottom: 18px;
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: brown;
+}
+
+.lgdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+
+.lgsubdiv {
+  background-color: black;
+  width: 1400px;
+  height: 650px; 
+  position: absolute;
+  top: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 11px -11px 34px 3px rgba(138,169,239,0.71);
+-webkit-box-shadow: 11px -11px 34px 3px rgba(138,169,239,0.71);
+-moz-box-shadow: 11px -11px 34px 3px rgba(138,169,239,0.71);
+}
+
+.imgdiv {
+  width: 1000px;
+  height: 650px;
+  background-image: url(./Images/WelLogin.jpg);
+  opacity: 0.7;
+}
+
+.lg {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  ;
+  width: 400px;
+  height: 650px;
+}
+
+.inp {
+  margin: 5px;
+  border-radius: 20px;
+  width: 225px;
+  text-align: center;
+
+}
+
+.lgbtn {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  border-radius: 8px;
+  width: 135px;
+  border: 1px solid lightsalmon;
+  margin-bottom: 15px;
+}
+.decor{
+  width: 350px;
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  opacity: 5;
+}
+.imglanding{
+  background-image: url(./Images/Imgld.jpg);
+  width: 1550px;
+  height: 350px;
+  opacity: 0.8;
+}
+.decorLandingPage{
+  width: 600px;
+  position: absolute;
+  top: 120px;
+  left: 800px;
+  color: rgb(0, 0, 0);
+  opacity: 5;
+}
+.btnshop{
+  background-color: rgb(227, 112, 11);
+  color: white;
+  border-radius: 7px;
+  width: 100px;
+  height: 35px;
+  border: none;
+}
+.ProductCard{
+  display: inline-block;
+  padding: 10px;
+  height: 225px;
+  width: 150px;
+}
+.ProductDis{
+  height: 125px;
+  width: 125px;
+}
+.agileits-services{
+  margin: 10px;
+}
+.gift{
+  background-color: bisque;
+  justify-content: center;
+}
+.payment{
+  background-color: beige;
+  justify-content: center;
 }
